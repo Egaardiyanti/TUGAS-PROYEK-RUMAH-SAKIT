@@ -68,14 +68,23 @@ if (jumlah_pasien == 0) {
 
 cout << "\n=== PILIH POLI ===\n";
 cout << "-------------------------------------------------------------\n";
-cout << " 1. Klinik Anak\t\t\t  9. Klinik Syaraf\n";
-cout << " 2. Klinik Kebidanan & Kandungan 10. Klinik Kulit & Kelamin\n";
-cout << " 3. Klinik Penyakit Dalam\t 11. Klinik Mata\n";
-cout << " 4. Klinik Bedah\t\t 12. Klinik Telinga, Hidung & Tenggorokan\n";
-cout << " 5. Klinik Konsultan Bedah Digestif 13. Klinik Jiwa\n";
-cout << " 6. Klinik Konsultan Bedah Onkologi 14. Klinik Jantung & Pembuluh Darah\n";
-cout << " 7. Klinik Orthopedi\t\t 15. Klinik Gigi & Mulut\n";
-cout << " 8. Klinik Urologi\n";
+cout << " 1. Klinik Anak "<<endl;
+cout << " 2. Klinik Kebidanan & Kandungan "<<endl;
+cout << " 3. Klinik Penyakit Dalam"<<endl;
+cout << " 4. Klinik Bedah"<<endl;
+cout << " 5. Klinik Konsultan Bedah Digestif"<<endl;
+cout << " 6. Klinik Konsultan Bedah Onkologi"<<endl;
+cout << " 7. Klinik Orthopedi"<<endl;
+cout << " 8. Klinik Urologi"<<endl;
+cout << " 9. Klinik Syaraf"<<endl;
+cout << " 10. Klinik Kulit & Kelamin"<<endl;
+cout << " 11. Klinik Mata"<<endl;
+cout << " 12. Klinik Telinga, Hidung & Tenggorokan"<<endl;
+cout << " 13. Klinik Jiwa"<<endl;
+cout << " 14. Klinik Jantung & Pembuluh Darah"<<endl;
+cout << " 15. Klinik Klinik Gigi & Mulut"<<endl;
+
+
 cout << "-------------------------------------------------------------\n";
 cout << "Masukkan pilihan (1-15): ";
 
@@ -303,4 +312,3 @@ int main() {
     app.menu();
     return 0;
 }
-
