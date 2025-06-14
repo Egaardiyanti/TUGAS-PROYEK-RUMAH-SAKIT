@@ -953,16 +953,31 @@ void SistemFarmasi::menu() {
         cin >> pilihan;
 
         switch (pilihan) {
-            case 1: tambahObat(); break;
-            case 2: tampilkanObat(); break;
-            case 3: pengambilanObat(); break;
-            case 4: cetakResi(); break;
-            case 5: pembayaran(); break;
-            case 6: cetakStruk(); break;
-            case 7: cout << "Terima kasih telah menggunakan sistem farmasi.\n"; break;
-            default: cout << "Pilihan tidak valid!\n";
+            case 1: 
+				tambahObat(); 
+				break;
+            case 2: 
+				tampilkanObat(); 
+				break;
+            case 3: 
+				pengambilanObat(); 
+				break;
+            case 4: 
+				cetakResi(); 
+				break;
+            case 5: 
+				pembayaran(); 
+				break;
+            case 6: 
+				cetakStruk(); 
+				break;
+            case 7: 
+				cout << "Terima kasih telah menggunakan sistem farmasi.\n"; 
+				break;
+            default: 
+				cout << "Pilihan tidak valid!\n";
         }
-    } while (pilihan != 6);
+    } while (pilihan != 7);
 }
 
 void SistemFarmasi::menumenu() {
@@ -1043,21 +1058,51 @@ void PasienUmumMenu::daftar_poli_umum() {
     cin >> pilihan;
 
     switch (pilihan) {
-        case 1: pasien_umum.poli = "Klinik Anak"; break;
-        case 2: pasien_umum.poli = "Klinik Kebidanan & Kandungan"; break;
-        case 3: pasien_umum.poli = "Klinik Penyakit Dalam"; break;
-        case 4: pasien_umum.poli = "Klinik Bedah"; break;
-        case 5: pasien_umum.poli = "Klinik Konsultan Bedah Digestif"; break;
-        case 6: pasien_umum.poli = "Klinik Konsultan Bedah Onkologi"; break;
-        case 7: pasien_umum.poli = "Klinik Orthopedi"; break;
-        case 8: pasien_umum.poli = "Klinik Urologi"; break;
-        case 9: pasien_umum.poli = "Klinik Syaraf"; break;
-        case 10: pasien_umum.poli = "Klinik Kulit & Kelamin"; break;
-        case 11: pasien_umum.poli = "Klinik Mata"; break;
-        case 12: pasien_umum.poli = "Klinik Telinga, Hidung & Tenggorokan"; break;
-        case 13: pasien_umum.poli = "Klinik Jiwa"; break;
-        case 14: pasien_umum.poli = "Klinik Jantung & Pembuluh Darah"; break;
-        case 15: pasien_umum.poli = "Klinik Gigi & Mulut"; break;
+        case 1: 
+			pasien_umum.poli = "Klinik Anak"; 
+			break;
+        case 2: 
+			pasien_umum.poli = "Klinik Kebidanan & Kandungan"; 
+			break;
+        case 3: 
+			pasien_umum.poli = "Klinik Penyakit Dalam"; 
+			break;
+        case 4: 
+			pasien_umum.poli = "Klinik Bedah"; 
+			break;
+        case 5: 
+			pasien_umum.poli = "Klinik Konsultan Bedah Digestif"; 
+			break;
+        case 6: 
+			pasien_umum.poli = "Klinik Konsultan Bedah Onkologi"; 
+			break;
+        case 7: 
+			pasien_umum.poli = "Klinik Orthopedi"; 
+			break;
+        case 8: 
+			pasien_umum.poli = "Klinik Urologi"; 
+			break;
+        case 9: 
+			pasien_umum.poli = "Klinik Syaraf"; 
+			break;
+        case 10: 
+			pasien_umum.poli = "Klinik Kulit & Kelamin"; 
+			break;
+        case 11: 
+			pasien_umum.poli = "Klinik Mata"; 
+			break;
+        case 12: 
+			pasien_umum.poli = "Klinik Telinga, Hidung & Tenggorokan"; 
+			break;
+        case 13: 
+			pasien_umum.poli = "Klinik Jiwa"; 
+			break;
+        case 14: 
+			pasien_umum.poli = "Klinik Jantung & Pembuluh Darah"; 
+			break;
+        case 15: 
+			pasien_umum.poli = "Klinik Gigi & Mulut"; 
+			break;
         default:
             cout << "Pilihan tidak valid.\n";
             pasien_umum.poli = "";
@@ -1319,21 +1364,51 @@ void PasienBPJSMenu::daftar_poli_bpjs() {
     cin >> pilihan;
 
     switch (pilihan) {
-        case 1: pasien_bpjs.poliBpjs = "Klinik Anak"; break;
-        case 2: pasien_bpjs.poliBpjs = "Klinik Kebidanan & Kandungan"; break;
-        case 3: pasien_bpjs.poliBpjs = "Klinik Penyakit Dalam"; break;
-        case 4: pasien_bpjs.poliBpjs = "Klinik Bedah"; break;
-        case 5: pasien_bpjs.poliBpjs = "Klinik Konsultan Bedah Digestif"; break;
-        case 6: pasien_bpjs.poliBpjs = "Klinik Konsultan Bedah Onkologi"; break;
-        case 7: pasien_bpjs.poliBpjs = "Klinik Orthopedi"; break;
-        case 8: pasien_bpjs.poliBpjs = "Klinik Urologi"; break;
-        case 9: pasien_bpjs.poliBpjs = "Klinik Syaraf"; break;
-        case 10: pasien_bpjs.poliBpjs = "Klinik Kulit & Kelamin"; break;
-        case 11: pasien_bpjs.poliBpjs = "Klinik Mata"; break;
-        case 12: pasien_bpjs.poliBpjs = "Klinik Telinga, Hidung & Tenggorokan"; break;
-        case 13: pasien_bpjs.poliBpjs = "Klinik Jiwa"; break;
-        case 14: pasien_bpjs.poliBpjs = "Klinik Jantung & Pembuluh Darah"; break;
-        case 15: pasien_bpjs.poliBpjs = "Klinik Gigi & Mulut"; break;
+        case 1: 
+			pasien_bpjs.poliBpjs = "Klinik Anak"; 
+			break;
+        case 2: 
+			pasien_bpjs.poliBpjs = "Klinik Kebidanan & Kandungan"; 
+			break;
+        case 3: 
+			pasien_bpjs.poliBpjs = "Klinik Penyakit Dalam"; 
+			break;
+        case 4: 
+			pasien_bpjs.poliBpjs = "Klinik Bedah"; 
+			break;
+        case 5: 
+			pasien_bpjs.poliBpjs = "Klinik Konsultan Bedah Digestif"; 
+			break;
+        case 6: 
+			pasien_bpjs.poliBpjs = "Klinik Konsultan Bedah Onkologi"; 
+			break;
+        case 7: 
+			pasien_bpjs.poliBpjs = "Klinik Orthopedi"; 
+			break;
+        case 8: 
+			pasien_bpjs.poliBpjs = "Klinik Urologi"; 
+			break;
+        case 9: 
+			pasien_bpjs.poliBpjs = "Klinik Syaraf"; 
+			break;
+        case 10: 
+			pasien_bpjs.poliBpjs = "Klinik Kulit & Kelamin"; 
+			break;
+        case 11: 
+			pasien_bpjs.poliBpjs = "Klinik Mata"; 
+			break;
+        case 12: 
+			pasien_bpjs.poliBpjs = "Klinik Telinga, Hidung & Tenggorokan"; 
+			break;
+        case 13: 
+			pasien_bpjs.poliBpjs = "Klinik Jiwa"; 
+			break;
+        case 14: 
+			pasien_bpjs.poliBpjs = "Klinik Jantung & Pembuluh Darah"; 
+			break;
+        case 15: 
+			pasien_bpjs.poliBpjs = "Klinik Gigi & Mulut"; 
+			break;
         default:
             cout << "Pilihan tidak valid.\n";
             pasien_bpjs.poliBpjs = "";
@@ -1745,7 +1820,7 @@ void menuAdmin() {
             cout << "3. Edit Pasien\n";
             cout << "4. Hapus Pasien\n";
             cout << "5. Cari Pasien\n";
-            cout << "0. Logout\n";
+            cout << "6. Logout\n";
             cout << "===========================================\n";
             cout << "Pilih: ";
             cin >> menu;
@@ -1786,16 +1861,16 @@ void menuAdmin() {
                     break;
                 }
                 case 5: {
-                    string keyword;
-                    cout << "Masukkan kata kunci: ";
-                    getline(cin, keyword);
-                    Pasien::cariPasien(keyword);
+                    string id;
+                    cout << "Masukkan ID pasien: ";
+                    getline(cin, id);
+                    Pasien::cariPasien(id);
                     break;
                 }
                 default:
-                    if (menu != 0) cout << "Pilihan tidak valid.\n";
+                    if (menu != 6) cout << "Pilihan tidak valid.\n";
             }
-        } while (menu != 0);
+        } while (menu != 6);
     } else {
         cout << "Login gagal.\n";
     }
@@ -2016,4 +2091,3 @@ int main() {
 
     return 0;
 }
-
