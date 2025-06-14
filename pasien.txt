@@ -1,0 +1,3 @@
+Ega Ardiyanti;RM0001;18;Perempuan;Yogyakarta;123
+Devalya Lameysha Manurung;RM0002;19;Perempuan;Yogyakarta;123
+Mal'an Airin;RM0003;19;Laki-Laki;Yogyakarta;123
